@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --color-bg-primary: #55BC04;
+  --color-bg-secondary: #C2C2C2;
+  --color-bg-tertiary: #FFFFFF;
+  --color-btn-filter: #55BC04;
+
+  --color-border: #55BC04;
+  --color-border-placeholder: #C2C2C2;
+
+  --color-placeholder: #C2C2C2;
+
+
+  --color-font-primary: #fff;
+  --color-font-secondary: #6F6F6F;
+  --color-font-tertiary: #55BC04;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto'sans-serif;
+}
+
+html, body {
+  background-color: var(--color-bg-secondary);
+}
+
+main {
+  padding: 0 20px;
+
+}
+
+a, a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+/*Listing body*/
+.section-filter {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.card-listing-main {
+
+  background-color: var(--color-bg-tertiary);
+  border-radius: 5px;
+  padding: 20px;
+}
