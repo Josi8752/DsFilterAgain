@@ -14,3 +14,49 @@ Projeto desenvolvido foi proposto pela [DevSuperior](https://devsuperior.com.br/
 ##
 
 Deploy do projeto realizado no vercel, veja [aqui](https://ds-filter.vercel.app/).
+
+## Veja o corpo da tela 
+
+![Corpo-da-telaDsFilter](https://github.com/Josi8752/DsFilterAgain/assets/98353328/09f5b1a5-0e15-43a1-a068-071d092fd254)
+
+
+## Veja o projeto 
+
+
+![Modulo-FrontEnd-ProjetoSemFiltroDosProdutos](https://github.com/Josi8752/DsFilterAgain/assets/98353328/ef0b0237-d91c-4901-ac01-ec4a84e20713)
+##
+![Modulo-FrontEndProjetoComFiltroDosProdutos](https://github.com/Josi8752/DsFilterAgain/assets/98353328/e50d943b-22c8-4419-abe4-bdecef5269df)
+
+## Como criar e executar o DSFilter localmente
+
+Criar e executar o projeto em seu ambiente de desenvolvimento local é muito fácil. Certifique-se de ter o Git instalados e siga as instruções abaixo. Precisa de informações adicionais? entre em contato com os autores.
+(Estas instruções pressupõem que você esteja instalando como usuário com permissões root/administrador.)
+
+### Frontend
+
+1. **Clone** o código fonte
+
+   ```bash
+   git@github.com:Josi8752/DsFilterAgain.git
+   ```
+2. Abra o projeto em sua **IDE** de preferência(utilizado o Visual Studio Code).
+
+3. Faça o download das dependências com o comando a seguir: (certifique que eseja na pasta raiz (FRONTEND))  
+
+   ```bash
+      yarn
+      
+4. Em seguida execute o comoando para inicializar o projeto localmente:
+
+   ```bash
+      yarn dev
+   ```
+
+## Tecnologias utlizadas
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [REACT](https://reactjs.org/docs/getting-started.html)
+- [TYPESCRIPT](https://www.typescriptlang.org/docs/)
+
+

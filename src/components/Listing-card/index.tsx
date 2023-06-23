@@ -1,13 +1,17 @@
-
 import "./styles.css";
+import { ProductDTO } from "../../models/productDTO";
 
-export default function Listing() {
+
+type Props = {
+    product: ProductDTO;
+}
+export default function Listing({ product }: Props) {
     return (
 
         <div className="card-description">
-            <p className="name-product">produto 1</p>
+            <p className="name-product">{product.name}</p>
 
-            <p className="price-product">preço do produto</p>
+            <p className="price-product">{product.price}</p>
         </div>
     );
 }
